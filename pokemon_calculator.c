@@ -353,7 +353,7 @@ void results(int *pn, int *pc, int *ec, int *tc)
       int tc_temp = *tc;
       
       /* declaring the amount of time to evolve one pokemon, in this case 27 seconds */
-      int evolveTime = 27;
+      dobule evolveTime = 27;
       /* calculate the xp gain by multipying the number of evolutions completed by 1000 */
       int xpAttained = (ec_temp * 1000);
       /* total evolution time calcualted by multiplying number of evoulutions completed by the evolve time (27)
